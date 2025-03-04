@@ -47,7 +47,9 @@ public class Character {
     }
 
     public void attack(Character target) {
+        int dmg = 5;
+
         System.out.println(name + " attacks " + target.name + "!");
-        target.takeDamage(5); // Default attack does 5 damage
+        target.takeDamage(dmg); // Default attack does 5 damage
     }
 }

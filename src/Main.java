@@ -15,7 +15,7 @@ public class Main {
 
         velheim.heavyStrike(djumbir);
 
-        mileva.heal(djumbir, 15);
+        mileva.heal(djumbir);
         controller.displayCharacters();
     }
 }
